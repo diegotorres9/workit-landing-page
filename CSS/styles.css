@@ -126,11 +126,6 @@ main {
     padding: clamp(4.438rem, 2.237rem + 9.39vw, 10.688rem) clamp(1rem, -2.279rem + 13.991vw, 10.313rem);
     margin-top: clamp(4rem, -0.203rem + 17.934vw, 15.938rem);
 }
-@media screen and (min-width: 375px) {
-    .workit-info .workit-container:not(:last-child) {
-        margin-bottom: 40px;
-    }
-}
 .workit-info .workit-container {
     display: flex;
     flex-direction: column;
@@ -168,6 +163,10 @@ main {
         grid-template-rows: 1fr;
         column-gap: 2rem;
         text-align: start;
+    }
+    .workit-info .workit-container:not(:last-child)
+    {
+        margin-bottom: 40px;
     }
     .workit-container .number {
         margin-bottom: 0;
