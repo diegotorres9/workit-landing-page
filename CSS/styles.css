@@ -29,8 +29,8 @@ nav .apply-link:hover{
 }
 main {
     background-color: #FCF8FF;
-    border-bottom-left-radius: 100% 8%;
-    border-bottom-right-radius: 100% 8%;
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
     position: relative;
 }
 .hero {
@@ -38,8 +38,8 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
     grid-template-rows: repeat(4, 1fr);
-    border-bottom-left-radius: 100% 8%;
-    border-bottom-right-radius: 100% 8%;
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
     height: clamp(30rem, 24.498rem + 23.474vw, 45.625rem);
     position: relative;
 }
